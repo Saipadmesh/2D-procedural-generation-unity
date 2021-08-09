@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fc326e42cebd694a9bb26a526b3587d, type: 3}
   m_Name: CellularAutomata
   m_EditorClassIdentifier: 
-  MinAlive: 0
-  Repetitions: 0
+  MinAlive: 2
+  Repetitions: 4
   ReplaceByDominantTile: 0
-  TargetTile: 0
+  TargetTile: 2002
   ReplacedBy: 0
-  GroundTile: 0

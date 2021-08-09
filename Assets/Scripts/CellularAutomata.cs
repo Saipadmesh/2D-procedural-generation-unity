@@ -12,7 +12,7 @@ public class CellularAutomata : AlgorithmBase
     public bool ReplaceByDominantTile;
 
     public ObjectTileType TargetTile, ReplacedBy;
-    public GroundTileType GroundTile;
+    //public GroundTileType GroundTile;
 
     public override void Apply(TilemapStructure tilemap)
     {
