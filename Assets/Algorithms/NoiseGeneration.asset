@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 792bffb494c7b1144b6dfd745d851326, type: 3}
   m_Name: NoiseGeneration
   m_EditorClassIdentifier: 
-  Octaves: 6
-  Persistance: 0.122
-  Lacunarity: 2.12
-  NoiseScale: 8.18
+  Octaves: 5
+  Persistance: 0.232
+  Lacunarity: 4.51
+  NoiseScale: 2.66
   Offset: {x: 0, y: 0}
   RandomShape: 0
   ApplySquareIslandGradient: 1
   TileTypes:
   - Height: 0
     GroundTile: 1
-  - Height: 0.59
+  - Height: 0.562
     GroundTile: 4
   - Height: 1
     GroundTile: 5

@@ -21,15 +21,37 @@ public class CorrectionAutomata : AlgorithmBase
                 for (int y = 0; y < tilemap.Height; y++)
                 {
                     var tile = tilemap.GetTile(x, y);
+                    var neighbors = tilemap.GetNeighbors(x, y);
                     if (tile == deepWaterVal)
                     {
-                        var neighbors = tilemap.GetNeighbors(x, y);
+                        
                         int count = neighbors.Count(t => t.Value == grassVal);
                         if(count >= 6 || neighbors.Count(t => t.Value == shallowWaterVal) != 0)
                         {
                             tilemap.SetTile(x, y, grassVal);
                         }
                           
+                    }
+
+                    if(tile == shallowWaterVal)
+                    {
+                        
+                        int count = neighbors.Count(t => t.Value == grassVal);
+                        if (count >= 6 || neighbors.Count(t => t.Value == shallowWaterVal) == 0)
+                        {
+                            tilemap.SetTile(x, y, grassVal);
+                        }
+
+                    }
+
+                    if(tile == grassVal)
+                    {
+                        
+                        int count = neighbors.Count(t => t.Value == shallowWaterVal);
+                        if (count >= 5)
+                        {
+                            tilemap.SetTile(x, y, shallowWaterVal);
+                        }
                     }
 
                 }

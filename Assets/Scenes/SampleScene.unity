@@ -648,6 +648,7 @@ MonoBehaviour:
   objectTextures: []
   _algorithms:
   - {fileID: 11400000, guid: 3442e9e7363dea141a1e14be1aea09c1, type: 2}
+  - {fileID: 11400000, guid: f8380dd9150593744a320d694d220b34, type: 2}
 --- !u!483693784 &775026633
 TilemapRenderer:
   m_ObjectHideFlags: 0

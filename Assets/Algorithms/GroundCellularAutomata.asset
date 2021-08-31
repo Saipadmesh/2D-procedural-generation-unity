@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47aa67f30e6668b47b47abe964955d47, type: 3}
   m_Name: GroundCellularAutomata
   m_EditorClassIdentifier: 
-  Repetitions: 0
+  Repetitions: 2
