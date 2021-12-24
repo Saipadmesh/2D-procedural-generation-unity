@@ -105,7 +105,7 @@ public class TileGrid : MonoBehaviour
     }
     public Dictionary<TilemapType, TilemapStructure> Tilemaps;
 
-    private void Awake()
+    public void Awake()
     {
         Seed = rand.Next();
         Tiles = InitializeTiles();

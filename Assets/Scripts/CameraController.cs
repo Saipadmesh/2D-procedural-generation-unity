@@ -13,6 +13,7 @@ public class CameraController : MonoBehaviour
     private float halfWidth;
     private float halfHeight;
     public Transform tilemap;
+    public GameObject ground, objects;
 
     private void Start()
     {
@@ -24,6 +25,9 @@ public class CameraController : MonoBehaviour
         
         
     }
+
+     
+        
 
     // Update is called once per frame
     void Update()
